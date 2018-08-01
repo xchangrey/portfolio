@@ -1,3 +1,4 @@
+
 $primary-color: #444;
 $secondary-color: #64ffda;
 $show-home-image: true;
@@ -7,6 +8,9 @@ $background-opacity: 0.9;
 @mixin easeOut {
     transition: all 0.5s ease-out;
 }
+
+@import 'config';
+@import 'menu';
 
 @mixin background {
   @if $show-home-image {
