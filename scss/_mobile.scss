@@ -76,4 +76,14 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  main {
+    .lg-heading {
+      font-size: 2rem;
+    }
+
+    .sm-heading {
+      font-size: 1.5rem;
+    }
+  }
 }
