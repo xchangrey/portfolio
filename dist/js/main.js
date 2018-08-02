@@ -37,7 +37,7 @@ window.onload = function() {
     maxParticles: 150,
     color: "#64ffda",
     connectParticles: true,
-    sizeVariations: 4,
+    sizeVariations: 6,
     minDistance: 120,
     responsive: [
       {
