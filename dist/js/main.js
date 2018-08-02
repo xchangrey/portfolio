@@ -41,16 +41,20 @@ window.onload = function() {
     minDistance: 120,
     responsive: [
       {
+        breakpoint: 992,
+        maxParticles: 100
+      },
+      {
         breakpoint: 768,
         options: {
-          maxParticles: 100,
+          maxParticles: 90,
           connectParticles: false
         }
       },
       {
         breakpoint: 500,
         options: {
-          maxParticles: 80
+          maxParticles: 100
         }
       }
     ]
