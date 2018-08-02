@@ -115,6 +115,13 @@ body {
       background: rgba(68, 68, 68, 0.9);
       z-index: -1; }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+
 h1, h2, h3 {
   margin: 0;
   font-weight: 400; }

@@ -30,3 +30,29 @@ function toggleMenu(){
     showMenu = false;
   }
 }
+
+window.onload = function() {
+  Particles.init({
+    selector: ".background",
+    maxParticles: 150,
+    color: "#64ffda",
+    connectParticles: true,
+    sizeVariations: 4,
+    minDistance: 120,
+    responsive: [
+      {
+        breakpoint: 768,
+        options: {
+          maxParticles: 100,
+          connectParticles: false
+        }
+      },
+      {
+        breakpoint: 500,
+        options: {
+          maxParticles: 80
+        }
+      }
+    ]
+  });
+};

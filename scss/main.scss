@@ -16,6 +16,14 @@ body {
   line-height: 1.5;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 //Headings
 h1,h2,h3 {
   margin: 0;
