@@ -12,7 +12,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
 }
 
@@ -23,12 +23,14 @@ h1,h2,h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    font-family: 'Raleway', sans-serif;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
+    font-family: 'Playfair Display', serif;
   }
 }
 
